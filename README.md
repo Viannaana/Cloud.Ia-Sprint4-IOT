@@ -135,8 +135,8 @@ Para uma explicação mais visual sobre o funcionamento do Vanna, veja a imagem 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Viannaana/Cloud.ia-IOT
-   cd Cloud.ia-IOT
+   git clone https://github.com/Viannaana/Cloud.Ia-Sprint4-IOT
+   cd Cloud.Ia-Sprint4-IOT
    ```
 
 
