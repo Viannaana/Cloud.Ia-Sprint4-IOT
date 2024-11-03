@@ -135,26 +135,26 @@ Para uma explicação mais visual sobre o funcionamento do Vanna, veja a imagem 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Viannaana/Cloud.IA---IOT-V_Final-.git
-   cd Cloud.IA---IOT-V_Final-
+   git clone https://github.com/Viannaana/Cloud.ia-IOT
+   cd Cloud.ia-IOT
    ```
 
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Configure as credenciais no arquivo `config.json`:
-   ```json
-   {
-     "vanna_api_key": "YOUR_VANNA_API_KEY",
-     "openai_api_key": "YOUR_OPENAI_API_KEY",
-     "oracle": {
-       "user": "youruser",
-       "password": "yourpassword",
-       "host": "yourhost"
-     }
-   }
+2. Configure as credenciais no arquivo `config.py`:
+   ```python
+
+
+      #config
+    OPENAI_API_KEY = ""
+    # Configurações do Vanna
+    VANNA_MODEL_NAME = ""
+    VANNA_API_KEY = ""
+    
+    # Configurações do Banco de Dados
+    DB_DSN = "oracle.fiap.com.br:1521/orcl"
+    DB_USER = "RMxxx"
+    DB_PASSWORD = "xxxx"
+
    ```
 
 4. Configure o banco de dados Oracle e execute o script `setup.sql` para criar as tabelas.
